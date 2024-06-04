@@ -3,7 +3,7 @@ description: Genomics Africa is dedicated to advancing the field of genomics to 
 show_downloads: true
 
 baseurl: ''
-url: ''
+url: 'https://genomicsafrica.github.io'
 
 google_analytics:
 
