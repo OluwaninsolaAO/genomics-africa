@@ -1,6 +1,9 @@
 ---
 layout: page
 title: Contact
+# tagline:
+ref: contact
+order: 1
 permalink: /contact/
 ---
 ## Website Updates
@@ -11,5 +14,3 @@ For more details, please visit [here](/readme) and our GitHub page.
 Fork this repository to get started:
 
 For more information about our programs, research, and how to get involved, please visit our website or contact us at [info@genomicsafrica.org](mailto:info@genomicsafrica.org).
-
-
