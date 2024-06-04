@@ -1,0 +1,69 @@
+---
+layout: default
+meeting: Genomics Africa 
+---
+
+<!--
+ This form uses google forms
+ It's pretty easy:
+ - create the google form
+ - view the google form in entry mode
+ - inspect the fields and get the name - entry.XXXXXXX
+ - inspect and get the form action
+ - this happens in an inframe and redirects to submitted.html
+ -->
+
+<h1>Meeting Registration Sign-Up Form</h1>
+<h3><strong>Meeting:</strong> {{ page.meeting }}</h3>
+
+<script type="text/javascript">var submitted=false;</script>
+ <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/submitted';}"></iframe>
+
+<form class="form" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSfcisj4m3lb_VLwwVFT1ZilZ1peerzs4abTsCp5iLL9y56Lug/formResponse">
+
+      <label>Name</label>
+      <input name="entry.128836778" type="text" />
+
+      <label>Email*</label>
+      <input name="emailAddress" type="email" required />
+  <p>* Please use an academic email address if possible</p>
+
+      <label>Are you a student?</label><br>
+      <label class="container">Yes
+      <input type="radio" name="entry.750803095" value="Yes">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">No
+      <input type="radio" checked="checked" name="entry.750803095" value="No">
+        <span class="checkmark"></span>
+        </label>
+
+
+
+      <label>Institute</label>
+      <input name="entry.763118794" type="text" required />
+
+      <label>City</label>
+      <input name="entry.340491097" type="text" required />
+
+      <label>Dietary requirements</label>
+      <input name="entry.1598531525" type="text" required />
+
+      <label>If you would like to give a talk please give details below:</label>
+      <textarea name="entry.1402070781"></textarea>
+
+
+
+  <label>Are you happy to share your details with other attendees?</label><br>
+      <label class="container">Yes
+      <input type="radio" checked="checked" name="entry.2000014696" value="Yes">
+        <span class="checkmark"></span>
+      </label>
+      <label class="container">No
+      <input type="radio" name="entry.2000014696" value="No">
+        <span class="checkmark"></span>
+        </label>
+
+  <input type="submit" value="Register" />
+
+</form>
