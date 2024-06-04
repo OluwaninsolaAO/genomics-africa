@@ -6,7 +6,7 @@ ref: members
 order: 4
 ---
 
-Please add yourself to this page! Fork the repository, edit `_data/members.yml` and submit a pull request.
+Please add yourself to this page! Either [sign up here](../member_registration.html), or fork the repository, edit `_data/members.yml` and submit a pull request.
 
 ## Steering Committee
 
