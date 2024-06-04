@@ -1,0 +1,31 @@
+title: Genomics Africa
+description: Genomics Africa is dedicated to advancing the field of genomics to transform healthcare and improve lives across the African continent. Our organization is committed to leveraging cutting-edge genomic research and technologies to address the unique health challenges faced by African populations.
+show_downloads: true
+
+baseurl: ''
+url: ''
+
+google_analytics:
+
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: '%b %-d, %Y'
+
+theme: # leave it empty
+
+# social
+author: 'Genomics Africa'
+image: /thumbnail-jumbo.png
+twitter:
+  username: 'GenomicsAfrica'
+github:
+  username: 'GenomicsAfrica'
+
+plugins:
+  - jekyll-target-blank
+
+target-blank:
+  rel: nofollow
+
+header_page_refs: ['now', 'about', 'contact']
