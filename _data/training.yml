@@ -1,0 +1,9 @@
+- title: Interpreting RNA-Seq Results
+  subtitle: This one-day course looks at several ways of adding functional context to lists of genes.
+  description: We begin by introducing methods for clustering and visualizing data, including dendrograms, heatmaps and venn diagrams. We then consider how to make use of functional annotation that has been added to the gene databases of many organisms to examine gene lists for classes of annotation that are statistically over-represented.
+  date: 20-09-2019
+  duration: 1
+  institute: Newcastle University
+  city: Newcastle
+  location: Newcastle University Campus
+  link: https://www.ncl.ac.uk/bsu/courses/
