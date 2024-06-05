@@ -42,8 +42,8 @@ Please add yourself to this page! Either [sign up here](../member_registration.h
 To Add yourself to the members table:
 in the data directory you need to add yourself to the members.yml file:
 
-- github: markdunning
-  name: Mark Dunning
-  institute: Sheffield University Bioinformatics Core
-  email: m.j.dunning@sheffield.ac.uk
+- github: babasaraky
+  name: Umar Ahmad
+  institute: Molecular Genetics Informatics, Bauchi State University
+  email: babasaraki@yahoo.co.uk
 -->
