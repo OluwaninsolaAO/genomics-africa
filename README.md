@@ -28,12 +28,12 @@ edit an existing entry. Each entry should look like this:
 - title: Nanopore Sequencing & Data Analysis
   subtitle: Learn about nanopore sequecning and data analysis by performing your own 16S sequecning experiement!
   description: Learn - The science behind nanopore sequencing, How to prepare a 16S amplicon library for sequencing, Loading a library onto a MinION flow cell, Sequencing on the MinION platform, Basics of nanopore data, Analysis of our 16S data using Galaxy
-  date: 19-09-2019
+  date: 14-07-2024
   duration: 1
-  institute: University of Sheffield
-  city: Sheffield
-  location: E13 Dainton Building
-  link: http://sbc.shef.ac.uk/training/nanopore-sequencing-2019-09-19/
+  institute: ATBU
+  city: Bauchi
+  location: ATBUTH
+  link: https://atbu.edu.ng
 ```
 
 ### Adding/Editing Members
