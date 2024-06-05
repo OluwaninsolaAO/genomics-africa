@@ -5,7 +5,7 @@ permalink: /readme/
 ---
 
 ### Adding a Post
-Add a new markdown file in the `_posts` directory with the filename in the format:
+Create a new markdown file in the '_posts' directory, ensuring the filename follows this format:
 
 ```
 YYYY-MM-DD-quick-title.md
@@ -21,14 +21,14 @@ title: <DISPLAYED_TITLE>
 ```
 
 ### Adding/Editing Training
-In the `_data` directory you will find a `training.yml` file. Simply add a new entry or
-edit an existing entry. Each entry should look like this:
+In the '_data' directory, you will find a 'training.yml' file. You can either add a new entry or 
+edit an existing one. Each entry should be formatted as follows:
 
 ```
 - title: Nanopore Sequencing & Data Analysis
   subtitle: Learn about nanopore sequecning and data analysis by performing your own 16S sequecning experiement!
   description: Learn - The science behind nanopore sequencing, How to prepare a 16S amplicon library for sequencing, Loading a library onto a MinION flow cell, Sequencing on the MinION platform, Basics of nanopore data, Analysis of our 16S data using Galaxy
-  date: 14-07-2024
+  date: 10-06-2024
   duration: 1
   institute: ATBU
   city: Bauchi
@@ -37,36 +37,35 @@ edit an existing entry. Each entry should look like this:
 ```
 
 ### Adding/Editing Members
-In the `_data` directory you will find a `members.yml` file. Simply add a new entry
+In the '_data' directory, you will find a 'members.yml' file. You can add a new entry 
 using the existing ones as a template or make edits as required.
 
-Each entry should look like this (if you don't have github please omit that line):
+Each entry should be formatted like this (omit the GitHub line if you don't have one):
 
 ```
-- name: Matthew Parker
-  github: mattdmem
-  institute: Sheffield University Bioinformatics Core
-  email: matthew.parker@sheffield.ac.uk
-  website: http://sbc.shef.ac.uk/
-  twitter: bioinfomatt
-  interests: Clinical Bioinfromatics, Cancer, Variant Calling, Structural Variants
+- name: Umar Ahmad
+  github: babasaraki
+  institute: Molecular Genetics Informatics, Bauchi State University
+  email: umarahmad@basug.edu.ng
+  website: https://africacdc.org/institutes/ipg/
+  twitter: babasaraky
+  interests: Cancer, RNA-Seq, WGS, WES, Microarrays, AI/Machine learning.
 ```
 
 ### Adding/Editing Meetings
-In the `_data` directory you will find a `meetings.yml` file. Simply add a new entry
-using the existing ones as a template or make edits as required. Meetings are automatically
-displayed in the "Past" section if the date of the meeting was before today's date.
+In the '_data' directory, you'll find a 'meetings.yml' file. You can add a new entry 
+using the existing ones as a template or make edits as required. Meetings will automatically 
+appear in the "Past" section if their date is before today's date.
 
-Each entry should look like this:
-
+Each entry should be formatted as follows:
 ```
-- meeting: NorthernBUG|2
-  theme: Clinical Bioinformatics
-  month: September
-  day: 14
-  year: 2018
-  institute: University of Sheffield
-  city: Sheffield
+- meeting: Genomics Africa |2
+  theme: Cancer Genomics and Precision Oncology Care
+  month: June
+  day: 5
+  year: 2024
+  institute: National Institute for Cancer Research and Treatment
+  city: Abuja
 ```
 
 ### Adding/Editing A Meeting Page
@@ -104,8 +103,8 @@ permalink: <FILENAME_WITHOUT_.md>
 ```
 
 ### Meeting Sign-Up
-Meeting sign-up is powered by google forms. We have just hijacked the names
-of fields and the action to create our own form. Responses go into a google sheet.
+Meeting sign-up is managed via Google Forms. We have customized the field names 
+and action to create our own form. Responses are collected in a Google Sheet.
 
-Once a meeting registration is closed we will create a new tab and preserve the
-sign-up list from previous meetings in their own tabs.
+When a meeting registration closes, we create a new tab and keep 
+the sign-up list from previous meetings in their respective tabs.
