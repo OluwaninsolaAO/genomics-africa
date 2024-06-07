@@ -1,45 +1,39 @@
----
-layout: default
----
-
-<h1>Member Registration</h1>
-
-<script type="text/javascript">var submitted=false;</script>
- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/registered';}"></iframe>
-
-<form class="form" target="hidden_iframe" onsubmit="submitted=true;" action="https://forms.gle/KjQ82roMtTqNXKER8">
-
-      <label>Name</label>
-      <input name="entry.287414696" type="text" required />
-
-      <label>Email</label>
-      <input name="emailAddress" type="email" required />
-
-      <label>Institute</label>
-      <input name="entry.173623171" type="text" />
-
-      <label>Website</label>
-      <input name="entry.846401907" type="text" />
-
-      <label>Twitter</label>
-      <input name="entry.1785595554" type="text" />
-
-      <label>GitHub</label>
-      <input name="entry.804654090" type="text" />
-
-      <label>Interests</label>
-      <input name="entry.1840383585" type="text" />
-
-      <label>Show email on Members page?</label><br>
-      <label class="container">Yes
-      <input type="radio" checked="checked" name="entry.460495396" value="Yes">
-        <span class="checkmark"></span>
-      </label>
-      <label class="container">No
-      <input type="radio" name="entry.460495396" value="No">
-        <span class="checkmark"></span>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Member Registration</title>
+</head>
+<body>
+    <h1>Member Registration</h1>
+    <script type="text/javascript">var submitted=false;</script>
+    <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='/registered';}"></iframe>
+    <form class="form" target="hidden_iframe" onsubmit="submitted=true;" action="https://docs.google.com/forms/d/e/1FAIpQLSenCYMl_vX-L9XP4N1CwOPT5L89Pk_bICzKfPlqbhvfKHtgEw/viewform">
+        <label>Name</label>
+        <input name="entry.287414696" type="text" required />
+        <label>Email</label>
+        <input name="emailAddress" type="email" required />
+        <label>Institute</label>
+        <input name="entry.173623171" type="text" />
+        <label>Website</label>
+        <input name="entry.846401907" type="text" />
+        <label>Twitter</label>
+        <input name="entry.1785595554" type="text" />
+        <label>GitHub</label>
+        <input name="entry.804654090" type="text" />
+        <label>Interests</label>
+        <input name="entry.1840383585" type="text" />
+        <label>Show email on Members page?</label><br>
+        <label class="container">Yes
+            <input type="radio" checked="checked" name="entry.460495396" value="Yes">
+            <span class="checkmark"></span>
         </label>
-
-  <input type="submit" value="Register" />
-
-</form>
+        <label class="container">No
+            <input type="radio" name="entry.460495396" value="No">
+            <span class="checkmark"></span>
+        </label>
+        <input type="submit" value="Register" />
+    </form>
+</body>
+</html>
